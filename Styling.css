@@ -1,77 +1,7 @@
 html {
     
-    
-    background-color: lightskyblue !important;
+    font-family: 'Times New Roman', Times, serif,monospace;
+    background-color: lightskyblue;
     box-sizing: border-box;
     justify-content: center;
-}
-body {
-    width: 85%;
-    margin-top: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: palevioletred;
-    height: max-content;
-    font-family: 'Times New Roman', Times, serif,monospace !important;
-}
-h1 {
-    color: navy;
-    font-weight: bold;
-    padding: 1rem;
-    text-align: center;
-}
-h2{
-    
-    padding-bottom: 1rem;
-    text-align: center;
-}
-img {
-    display: block;
-}
-#content {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.25rem;
-    margin: 5rem;
-}
-.card {
-    border: solid thick black;
-    background-color: slategray;
-    align-items: center;
-    padding:1rem;
-    justify-content: center;
-}
-.cardImage{
-    width: 10rem;
-}
-.cardImage > img {
-    width: 100%;
-}
-
-@media screen and (min-width:768px) and (max-width:1099px){
-    #content {
-        grid-template-columns: 1fr 1fr;
-        gap: 1fr;
-    }
-    #content > h2, #contact {
-        grid-column: span 2;
-    }
-  
-    
-}
-@media screen and (min-width:1100px) {
-    h1,h2{
-        text-align: left;
-        grid-column: span 4;
-    }    
-    h2{
-        max-width: 80%;
-        font-size: 2.2rem;
-    }
-    #content {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-    body{
-        font-size: 1.4rem;
-    }
 }
