@@ -22,8 +22,11 @@ h1 {
 }
 h2{
     
-    padding: 1rem;
+    padding-bottom: 1rem;
     text-align: center;
+}
+img {
+    display: block;
 }
 #content {
     display: grid;
@@ -35,7 +38,8 @@ h2{
     border: solid thick black;
     background-color: slategray;
     align-items: center;
-    padding:1rem
+    padding:1rem;
+    justify-content: center;
 }
 .cardImage{
     width: 10rem;
@@ -62,8 +66,12 @@ h2{
     }    
     h2{
         max-width: 80%;
+        font-size: 2.2rem;
     }
     #content {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    body{
+        font-size: 1.4rem;
     }
 }
